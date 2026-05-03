@@ -1,0 +1,24 @@
+@import url('https://googleapis.com');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans';
+}
+
+#menu-icon{
+    color: #2D2D2D;
+    display: none;
+    @media screen and(max-width:764px) {
+     display: flex;   
+        
+    }
+}
+
+#navEl{
+    @media screen and (max-width:764px) {
+        display: none;
+    }
+}
+
