@@ -41,8 +41,8 @@
     <!-- ============== Main container==================== -->
     <main  class="bg-[#FFF5F5] w-[100%] h-auto flex justify-center items-center">
 
-        <section class="form-main-container md:w-[80%] w-[100%] h-auto mt-5 flex flex-col items-center">
-            <h1 class="md:w-[55%] w-[50%] leading-11 text-center md:text-5xl text-2xl font-bold text-[#0A2129]">Course Registration</h1>
+        <section class="form-main-container md:w-[80%] w-[100%] h-auto mt-5 pb-10 flex flex-col items-center">
+            <h1 class="md:w-[55%] w-[50%] leading-6 text-center md:text-5xl text-2xl font-bold text-[#0A2129]">Course Registration</h1>
             <p class="md:text-xl text-base">Please input you actual name (not nike names please)</p>
 
             <!-- ============ Form section ================================== -->
@@ -137,20 +137,36 @@
                     <h1 class="md:text-3xl text-xl pl-3 pr-3 font-bold mb-10">A  commitment fee of GHC 10.00 is required to secure your spot in this program. This is to ensure dedication and help us maintain a focused learning environment.</h1>
 
                     <div class="mb-10 gap-2">
-                        <p class="text-xl mb-4 p-3">Make payment using this details</p>
-                        <div class="flex gap-2 mb-4 p-3"><h3 id="toCopyText" class="text-xl font-bold">0594389248</h3> <button id="copyBtn" class="bg-gray-120 pointer text-xl">copy</button></div>
+                        <p class="text-xl p-3">Make payment using this details</p>
+                        <div class="flex gap-2 pl-3"><h3 id="toCopyText" class="text-xl font-bold">0594389248</h3> <button id="copyBtn" class="bg-gray-120 pointer text-xl text-red-500">copy</button></div>
                         <h2 class="text-xl p-3">Prince Kweku Achila</h2>
                     </div>
-                    <label for="screenshot" class="text-2xl monospace p-3 text-center">After payment kingly upload a screenshot below.</label>
+                    <label for="screenshot" class="text-2xl monospace p-3 text-center">After payment kindly upload a screenshot below.</label>
                     <input name="screenshot" id="screenshot" accept="image/*" class="w-[80%] text-center flex flex-col justify-center mb-10 border-1 p-2 rounded-sm" type="file" placeholder="upload here" required>
 
-                    <div class=" p-3">
-                        <h3 class="text-base font-bold">Kindly take note of our payment structure below before joining us.</h3>
-                        <h2 class="text-base">Regular session Fee: <span class="font-bold">GHC 300.00</span></h2>
-                        <h2 class="text-base">One-on-One Fee: <span class="font-bold">GHC 500.00</span></h2>
-                        <h2 class="text-base">Duration:<span class="font-bold">Semester</span></h2>
-                        <h2 t class="text-base">Format:<span class="font-bold"> Practical-Based Learning</span></h2>  
-                    </div>
+                    <!-- <div class=" p-3">
+                        <h2 class=" text-xl">Regular session Fee: <span class="font-bold">GHC 300.00</span></h2>
+                        <h2 class=" text-xl">One-on-One Fee: <span class="font-bold">GHC 500.00</span></h2>
+                        <h2 class=" text-xl">Duration:<span class="font-bold">Semester</span></h2>
+                        <h2 t class="text-xl">Format:<span class="font-bold"> Practical-Based Learning</span></h2>  
+                    </div> -->
+                    
+                    <h3 class=" text-xl pb-2">Kindly take note of our payment structure below before joining us.</h3>
+                    <table class="md:max-w-[70%] border-1 mb-8">
+                        <tr class="border-1 md:max-w-[70%] w-[70%]">
+                            <th class="border-1 w-25 text-center text-xl text-[#090B0D]">Regular</th>
+                            <th class="border-1 w-25 text-center text-xl text-[#090B0D]">One-on-One</th>
+                            <th class="border-1 w-25 text-center text-xl text-[#090B0D]">Duration</th>
+                            <th class="border-1 w-25 text-center text-xl text-[#090B0D]">Format</th>
+                        </tr>
+
+                        <tr>
+                            <td class="border-1 w-[10%] text-center font-semibold">GHC 300</td>
+                            <td class="border-1 w-[10%] text-center font-semibold">GHC 600</td>
+                            <td class="border-1 w-[10%] text-center font-semibold">Semester</td>
+                            <td class="border-1 w-[10%] text-center font-semibold">Practical-Based</td>
+                        </tr>
+                    </table>
 
                      <button class="w-[100px] flex justify-center gap-2 items-center p-2 rounded-xl bg-blue-500 text-center text-white text-xl" type="submit" onclick="nextStep(2,3)">Submit <i class="bx bx-arrow-right-stroke text-2xl"></i></button>
                 </div>
