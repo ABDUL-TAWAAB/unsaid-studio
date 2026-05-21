@@ -31,3 +31,11 @@ document.getElementById(copyBtn).addEventListener('click', async () => {
         console.log("failed to copy");
     }
 });
+
+
+// join whatsApp group
+const groupLink = document.getElementById('groupLink');
+groupLink.addEventListener('click', ()=>{
+    window.location.href = 'https://chat.whatsapp.com/JnuawDQ8kYPA4Chhz9VNrC'
+    console.log('join whatsApp group');
+})

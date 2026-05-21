@@ -43,7 +43,7 @@
 
         <section class="form-main-container md:w-[80%] w-[100%] h-auto mt-5 pb-10 flex flex-col items-center">
             <h1 class="md:w-[55%] w-[50%] leading-6 text-center md:text-5xl text-2xl font-bold text-[#0A2129]">Course Registration</h1>
-            <p class="md:text-xl text-base">Please input you actual name (not nike names please)</p>
+            <p class="md:text-xl w-[70%] leading-6 text-center p-3">Please input you actual name (not nike names please)</p>
 
             <!-- ============ Form section ================================== -->
 
@@ -126,22 +126,22 @@
                         </select>
                     </div>
 
-                     <button class="w-[100px] flex justify-center gap-2 items-center p-2 rounded-xl bg-blue-500 text-center text-white text-xl" type="submit" onclick="nextStep(2,3)">Next <i class="bx bx-arrow-right-stroke text-2xl"></i></button>
+                     <button class="w-[100px] flex justify-center gap-2 items-center p-2 rounded-xl bg-blue-500 text-center text-white md:text-xl" type="submit" onclick="nextStep(2,3)">Next <i class="bx bx-arrow-right-stroke text-2xl"></i></button>
                 </div>
 
 
                 <!-- ============ section 3 ====================== -->
                 <div class="step " id="step3">
-                    <button class="w-[90px] flex justify-start gap-2 items-center p-1 mb-5 rounded-xl text-center text-black text-xl" type="button" onclick="nextStep(3,2)"><i class="bx bx-arrow-left text-2xl"></i>Back</button>
+                    <button class="w-[90px] flex justify-start gap-2 items-center p-1 mb-5 rounded-xl text-center text-black md:text-xl" type="button" onclick="nextStep(3,2)"><i class="bx bx-arrow-left text-2xl"></i>Back</button>
                     
-                    <h1 class="md:text-3xl text-xl pl-3 pr-3 font-bold mb-10">A  commitment fee of GHC 10.00 is required to secure your spot in this program. This is to ensure dedication and help us maintain a focused learning environment.</h1>
+                    <h1 class="md:text-xl pl-3 pr-3 font-bold mb-3">A  commitment fee of GHC 10.00 is required to secure your spot in this program. This is to ensure dedication and help us maintain a focused learning environment.</h1>
 
                     <div class="mb-10 gap-2">
                         <p class="text-xl p-3">Make payment using this details</p>
-                        <div class="flex gap-2 pl-3"><h3 id="toCopyText" class="text-xl font-bold">0594389248</h3> <button id="copyBtn" class="bg-gray-120 pointer text-xl text-red-500">copy</button></div>
-                        <h2 class="text-xl p-3">Prince Kweku Achila</h2>
+                        <div class="flex gap-2 pl-3"><h3 id="toCopyText" class="md:text-2xl font-bold">0594389248</h3> <button id="copyBtn" class="bg-gray-120 pointer md:text-xl text-red-500">copy</button></div>
+                        <h2 class="md:text-2xl p-3">Prince Kweku Achila</h2>
                     </div>
-                    <label for="screenshot" class="text-2xl monospace p-3 text-center">After payment kindly upload a screenshot below.</label>
+                    <label for="screenshot" class="md:text-2xl monospace p-3 text-center">After payment kindly upload a screenshot below.</label>
                     <input name="screenshot" id="screenshot" accept="image/*" class="w-[80%] text-center flex flex-col justify-center mb-10 border-1 p-2 rounded-sm" type="file" placeholder="upload here" required>
 
                     <!-- <div class=" p-3">
@@ -151,7 +151,7 @@
                         <h2 t class="text-xl">Format:<span class="font-bold"> Practical-Based Learning</span></h2>  
                     </div> -->
                     
-                    <h3 class=" text-xl pb-2">Kindly take note of our payment structure below before joining us.</h3>
+                    <h3 class=" md:text-2xl pb-2">Kindly take note of our payment structure below before joining us.</h3>
                     <table class="md:max-w-[70%] border-1 mb-8">
                         <tr class="border-1 md:max-w-[70%] w-[70%]">
                             <th class="border-1 w-25 text-center text-xl text-[#090B0D]">Regular</th>
@@ -168,7 +168,7 @@
                         </tr>
                     </table>
 
-                     <button class="w-[100px] flex justify-center gap-2 items-center p-2 rounded-xl bg-blue-500 text-center text-white text-xl" type="submit" onclick="nextStep(2,3)">Submit <i class="bx bx-arrow-right-stroke text-2xl"></i></button>
+                     <button class="w-[100px] flex justify-center gap-2 items-center p-2 rounded-xl bg-blue-500 text-center text-white text-xl" type="submit" onclick="nextStep(2,3)" id="groupLink">Submit <i class="bx bx-arrow-right-stroke text-2xl"></i></button>
                 </div>
             
             </form>
